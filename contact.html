@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — H2 Builders</title>
+  <meta name="description" content="Get in touch with H2 Builders for a free quote on your next home renovation project." />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav>
+    <a href="index.html">
+      <img class="nav-logo" src="assets/logo-white.svg" alt="H2 Builders" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="services.html">Services</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="services/blinds.html">Blinds, Shades &amp; Curtains</a></li>
+          <li><a href="services/accent-walls.html">Accent Walls, Trim &amp; Moulding</a></li>
+          <li><a href="services/garage.html">Garage Work</a></li>
+          <li><a href="services/renovations.html">Home Renovations</a></li>
+          <li><a href="services/handyman.html">Handyman</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page header -->
+  <div style="background:var(--dark); color:var(--white); padding:64px 5% 56px;">
+    <span class="hero-eyebrow">Reach Out</span>
+    <h1 style="font-size:clamp(2rem,4vw,3rem); font-weight:700; margin-top:.75rem;">Get a Free Quote</h1>
+    <p style="color:#ccc; margin-top:.75rem; max-width:520px; font-size:1.05rem;">
+      Ready to get started? Send a message or give us a call — we'll get back to you quickly.
+    </p>
+  </div>
+
+  <!-- Contact content -->
+  <section>
+    <div class="contact-section">
+
+      <!-- Left: contact info -->
+      <div>
+        <span class="section-label">Contact Info</span>
+        <h2 class="section-title">Let's Talk</h2>
+        <p style="color:var(--gray); margin-bottom:2.5rem;">
+          No project is too small. Whether you have a quick question or you're ready to book, reach out and we'll be happy to help.
+        </p>
+
+        <div class="contact-info-block">
+          <h3>Owner</h3>
+          <p>Umar Farooq</p>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Phone</h3>
+          <a href="tel:6477139329">647-713-9329</a>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Email</h3>
+          <a href="mailto:umar19960607@gmail.com">umar19960607@gmail.com</a>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Service Area</h3>
+          <p>Toronto &amp; Greater Toronto Area</p>
+        </div>
+
+        <div class="contact-info-block">
+          <h3>Hours</h3>
+          <p>Monday – Saturday: 8 AM – 7 PM<br />Sunday: By appointment</p>
+        </div>
+      </div>
+
+      <!-- Right: quote form -->
+      <div class="contact-card">
+        <h3>Request a Free Quote</h3>
+        <form action="mailto:umar19960607@gmail.com" method="post" enctype="text/plain">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="416-555-0100" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">— Select a service —</option>
+              <option>Blinds, Shades &amp; Curtains</option>
+              <option>Accent Wall</option>
+              <option>Garage Shelving</option>
+              <option>Garage Door Painting</option>
+              <option>Interior Painting</option>
+              <option>General Contracting</option>
+              <option>Other / Not Sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" name="message" placeholder="Describe your project, location, and any other details…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-red" style="width:100%; border:none; cursor:pointer;">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <img class="footer-logo" src="assets/logo.svg" alt="H2 Builders" />
+        <p class="footer-tagline">General contracting &amp; renovation services in Toronto &amp; the GTA.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Blinds, Shades &amp; Curtains</a></li>
+          <li><a href="services.html">Accent Walls</a></li>
+          <li><a href="services.html">Garage Shelving</a></li>
+          <li><a href="services.html">Garage Door Painting</a></li>
+          <li><a href="services.html">Interior Painting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Umar Farooq</p>
+        <p><a href="tel:6477139329">647-713-9329</a></p>
+        <p><a href="mailto:umar19960607@gmail.com">umar19960607@gmail.com</a></p>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="footer-bottom">
+      <p>&copy; 2026 H2 Builders. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
