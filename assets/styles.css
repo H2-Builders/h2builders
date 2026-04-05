@@ -34,13 +34,13 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
-  height: 96px;
+  height: 72px;
   border-bottom: 1px solid var(--border);
   box-shadow: 0 1px 4px rgba(0,0,0,.06);
 }
 
 .nav-logo {
-  height: 86px;
+  height: 60px;
   width: auto;
 }
 
