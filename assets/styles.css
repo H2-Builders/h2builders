@@ -440,6 +440,7 @@ section { padding: 80px 5%; }
   padding: 2rem 1.75rem;
   border: 1.5px solid var(--border);
   border-top: 3px solid var(--red);
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -452,6 +453,17 @@ section { padding: 80px 5%; }
   border-color: transparent;
   border-top-color: var(--red);
 }
+
+.category-card .cat-img {
+  width: calc(100% + 3.5rem);
+  margin: -2rem -1.75rem 1.25rem;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--radius) var(--radius) 0 0;
+  display: block;
+  transition: transform .3s ease;
+}
+.category-card:hover .cat-img { transform: scale(1.03); }
 
 .category-card .cat-icon {
   background: #FEF2F2;
