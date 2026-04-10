@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Past Work — H2 Builders</title>
+  <meta name="description" content="Photos of completed projects by H2 Builders — blinds, accent walls, painting, HVAC, handyman, and more across Toronto & GTA." />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    .pw-section {
+      padding: 0 5% 64px;
+    }
+    .pw-section:first-of-type {
+      padding-top: 0;
+    }
+    .pw-label {
+      display: inline-block;
+      font-size: .75rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: .5rem;
+    }
+    .pw-heading {
+      font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 1.25rem;
+    }
+    .pw-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: .75rem;
+    }
+    .pw-grid img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: var(--radius);
+      display: block;
+      transition: opacity .2s, transform .3s;
+    }
+    .pw-grid img:hover {
+      opacity: .9;
+      transform: scale(1.01);
+    }
+    .pw-grid .wide {
+      grid-column: span 2;
+    }
+    .pw-grid .tall img {
+      height: 460px;
+    }
+    @media (max-width: 640px) {
+      .pw-grid .wide { grid-column: span 1; }
+      .pw-grid .tall img { height: 300px; }
+    }
+    .pw-intro {
+      padding: 0 5% 56px;
+    }
+    .pw-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0 5% 56px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">
+      <img class="nav-logo" src="assets/logo.svg" alt="H2 Builders" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-dropdown">
+        <a href="services.html">Services</a>
+        <ul class="nav-dropdown-menu">
+          <li><a href="services/blinds.html">Blinds, Shades &amp; Curtains</a></li>
+          <li><a href="services/accent-walls.html">Accent Walls, Trim &amp; Moulding</a></li>
+          <li><a href="services/garage.html">Garage Work</a></li>
+          <li><a href="services/renovations.html">Home Renovations</a></li>
+          <li><a href="services/handyman.html">Handyman</a></li>
+          <li><a href="services/hvac.html">HVAC</a></li>
+        </ul>
+      </li>
+      <li><a href="past-work.html" class="active">Past Work</a></li>
+      <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+    </ul>
+  </nav>
+
+  <div class="breadcrumb">
+    <a href="index.html">Home</a><span>›</span>
+    Past Work
+  </div>
+
+  <div class="page-header">
+    <span class="hero-eyebrow">Portfolio</span>
+    <h1>Past Work</h1>
+    <p>A look at some of the projects we've completed across Toronto &amp; the GTA.</p>
+  </div>
+
+  <!-- Blinds -->
+  <section class="pw-section">
+    <span class="pw-label">Blinds &amp; Window Coverings</span>
+    <h2 class="pw-heading">Zebra Blinds Installation</h2>
+    <div class="pw-grid">
+      <div class="wide">
+        <img src="Images/Work%20images/Zebra%20blinds/PXL_20260404_221527456.jpg" alt="Zebra blinds installed in living room" loading="lazy" />
+      </div>
+      <img src="Images/Work%20images/Zebra%20blinds/PXL_20260404_213310791.jpg" alt="Zebra blinds close-up" loading="lazy" />
+      <img src="Images/Work%20images/Zebra%20blinds/PXL_20260404_214306161.jpg" alt="Zebra blinds detail" loading="lazy" />
+    </div>
+  </section>
+
+  <hr class="pw-divider" />
+
+  <!-- Accent Walls -->
+  <section class="pw-section">
+    <span class="pw-label">Accent Walls &amp; Trim</span>
+    <h2 class="pw-heading">Wall Paneling</h2>
+    <div class="pw-grid">
+      <div class="wide">
+        <img src="Images/Work%20images/Wall%20paneling/PXL_20250101_214737748.jpg" alt="Wall paneling accent wall" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <hr class="pw-divider" />
+
+  <!-- Painting -->
+  <section class="pw-section">
+    <span class="pw-label">Home Renovations</span>
+    <h2 class="pw-heading">Interior Painting</h2>
+    <div class="pw-grid">
+      <img src="Images/Work%20images/Painting/PXL_20250824_220326730.jpg" alt="Interior painting — room refresh" loading="lazy" />
+      <img src="Images/Work%20images/Painting/PXL_20250824_225532081.jpg" alt="Interior painting detail" loading="lazy" />
+      <img src="Images/Work%20images/Painting/PXL_20251006_224438602.jpg" alt="Interior painting — finished result" loading="lazy" />
+    </div>
+  </section>
+
+  <hr class="pw-divider" />
+
+  <!-- Handyman -->
+  <section class="pw-section">
+    <span class="pw-label">Handyman</span>
+    <h2 class="pw-heading">Installations &amp; Repairs</h2>
+    <div class="pw-grid">
+      <img src="Images/Work%20images/Handyman/PXL_20250915_173757012.jpg" alt="Handyman installation" loading="lazy" />
+      <img src="Images/Work%20images/Handyman/IMG_5338.jpg" alt="Handyman work completed" loading="lazy" />
+    </div>
+  </section>
+
+  <hr class="pw-divider" />
+
+  <!-- Garage -->
+  <section class="pw-section">
+    <span class="pw-label">Garage Work</span>
+    <h2 class="pw-heading">Overhead Storage &amp; Shelving</h2>
+    <div class="pw-grid">
+      <div class="wide">
+        <img src="Images/Work%20images/Garage%20shelving/overhead-storage.jpg" alt="Garage overhead storage shelving" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <hr class="pw-divider" />
+
+  <!-- HVAC -->
+  <section class="pw-section">
+    <span class="pw-label">HVAC</span>
+    <h2 class="pw-heading">Heating &amp; Cooling Installations</h2>
+    <div class="pw-grid">
+      <img src="Images/Work%20images/HVAC/PXL_20250430_203148073.jpg" alt="HVAC installation" loading="lazy" />
+      <img src="Images/Work%20images/HVAC/PXL_20250921_232348210.jpg" alt="HVAC unit installed" loading="lazy" />
+    </div>
+  </section>
+
+  <div class="cta-banner">
+    <h2>Like what you see?</h2>
+    <p>Get in touch for a free, no-obligation quote on your project.</p>
+    <a href="contact.html" class="btn btn-white">Get a Free Quote</a>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <img class="footer-logo" src="assets/logo.svg" alt="H2 Builders" />
+        <p class="footer-tagline">General contracting &amp; renovation services in Toronto &amp; the GTA.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services/blinds.html">Blinds, Shades &amp; Curtains</a></li>
+          <li><a href="services/accent-walls.html">Accent Walls, Trim &amp; Moulding</a></li>
+          <li><a href="services/garage.html">Garage Work</a></li>
+          <li><a href="services/renovations.html">Home Renovations</a></li>
+          <li><a href="services/handyman.html">Handyman</a></li>
+          <li><a href="services/hvac.html">HVAC</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>Umar Farooq</p>
+        <p><a href="tel:6477139329">647-713-9329</a></p>
+        <p><a href="mailto:umar19960607@gmail.com">umar19960607@gmail.com</a></p>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="footer-bottom">
+      <p>&copy; 2026 H2 Builders. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
