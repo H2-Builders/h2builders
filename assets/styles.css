@@ -140,13 +140,6 @@ nav {
 
 .hero-text { flex: 1; min-width: 0; }
 
-.hero-logo {
-  height: 80px;
-  width: auto;
-  filter: brightness(0) invert(1);
-  margin-bottom: 1rem;
-  display: block;
-}
 
 .hero-card {
   width: 240px;
